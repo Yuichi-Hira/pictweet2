@@ -8,7 +8,7 @@
     end
 
     def create
-      Tweet.create(name: params[:name], image: params[:image], text: params[:text])
+      Tweet.create(tweet_params)
     end
 
     private
