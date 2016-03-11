@@ -5,7 +5,7 @@ class CreateTweets < ActiveRecord::Migration
       t.text            :text
       t.text            :image
 
-      t.timestamps 
+      t.timestamps
     end
   end
 end
